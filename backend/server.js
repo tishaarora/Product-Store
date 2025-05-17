@@ -76,6 +76,17 @@ async function initDB() {
   }
 }
 
+app.use("/api/products", productRoutes);
+
+if (process.env.NODE_ENV === "production") {
+  // server our react app
+  app.use(express.static(path.join(__dirname, "/frontend/dist")));
+
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "frontend", "dist", "index.html"));
+  });
+}
+
 initDB().then(() => {
   app.listen(PORT, () => {
     console.log("Server is running on port " + PORT);
