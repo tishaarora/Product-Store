@@ -39,6 +39,37 @@ A simple full-stack CRUD (Create, Read, Update, Delete) web application for mana
 ---
 
 ## 📷 Screenshots
+<table>
+  <tr>
+    <td>
+       <strong> Product List</strong><br/><br/>
+      <img src="./assets/ss1.png" alt="Product List" width="500"/>
+    </td>
+    <td>
+       <strong> Add Product</strong><br/><br/>
+      <img src="./assets/ss2.png" alt="Add Product" width="500"/>
+    </td>
+  </tr>
+   <tr>
+    <td>
+       <strong> Edit Product</strong><br/><br/>
+      <img src="./assets/ss3.png" alt="Product List" width="500"/>
+    </td>
+    <td>
+       <strong> Toggle Theme</strong><br/><br/>
+      <img src="./assets/ss4.png" alt="Add Product" width="500"/>
+    </td>
+  </tr>
+   <tr>
+    <td>
+       <strong> Responsive </strong><br/><br/>
+      <img src="./assets/ss5.png" alt="Product List" height="500"/>
+    </td>
+    <td>
+      <img src="./assets/ss6.png" alt="Add Product" height="500"/>
+    </td>
+  </tr>
+</table>
 
 
 ---
